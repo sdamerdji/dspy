@@ -1,0 +1,18 @@
+[project]
+name = "dspy-toy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Salim Damerdji",email = "31995532+sdamerdji@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "dspy (>=2.6.24,<3.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
